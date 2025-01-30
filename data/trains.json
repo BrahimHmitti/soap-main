@@ -1,0 +1,54 @@
+[
+  {
+    "id": "T001",
+    "departureStation": "Paris",
+    "arrivalStation": "London",
+    "departureDateTime": "2023-06-01T10:00:00",
+    "arrivalDateTime": "2023-06-01T11:30:00",
+    "availableSeats": {
+      "First": 18,
+      "Business": 20,
+      "Standard": 100
+    },
+    "fares": {
+      "First": {
+        "flexible": 300,
+        "notFlexible": 250
+      },
+      "Business": {
+        "flexible": 200,
+        "notFlexible": 150
+      },
+      "Standard": {
+        "flexible": 100,
+        "notFlexible": 80
+      }
+    }
+  },
+  {
+    "id": "T002",
+    "departureStation": "London",
+    "arrivalStation": "Paris",
+    "departureDateTime": "2023-06-02T14:00:00",
+    "arrivalDateTime": "2023-06-02T15:30:00",
+    "availableSeats": {
+      "First": 15,
+      "Business": 25,
+      "Standard": 80
+    },
+    "fares": {
+      "First": {
+        "flexible": 320,
+        "notFlexible": 270
+      },
+      "Business": {
+        "flexible": 220,
+        "notFlexible": 170
+      },
+      "Standard": {
+        "flexible": 120,
+        "notFlexible": 90
+      }
+    }
+  }
+]
